@@ -1,0 +1,12 @@
+
+> cliente@0.1.0 dev
+> dotenv -e .env.local -e .env -- next dev
+
+▲ Next.js 16.3.5 (Turbopack)
+- Local:         http://localhost:4000
+- Network:       http://192.168.1.103:4000
+- Environments: .env.local, .env
+✓ Ready in 707ms
+✓ Running next.config.ts took 49ms
+
+[?25h

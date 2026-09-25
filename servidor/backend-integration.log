@@ -1,0 +1,19 @@
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +208ms[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +20ms[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/me, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/me, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/me, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/register, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 8400  - [39m15/09/2026, 3:54:06 p. m. [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m

@@ -1,0 +1,84 @@
+- generic [ref=e1]:
+  - generic [ref=e77]:
+    - complementary [ref=e78]:
+      - generic [ref=e79]: Herramienta CASE
+      - navigation [ref=e81]:
+        - link "Inicio" [ref=e82] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Proyectos" [ref=e88] [cursor=pointer]:
+          - /url: /proyectos
+        - link "Invitaciones" [ref=e91] [cursor=pointer]:
+          - /url: /invitaciones
+        - link "Mi perfil" [ref=e95] [cursor=pointer]:
+          - /url: /perfil
+        - generic [ref=e99]:
+          - paragraph [ref=e100]: Próximamente
+          - generic [ref=e101]:
+            - text: Diagramas
+            - generic [ref=e106]: Pronto
+          - generic [ref=e107]:
+            - text: Proyectos Spring Boot
+            - generic [ref=e112]: Pronto
+      - generic [ref=e113]: Proyecto de clase · v0.1
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - button "Menú de usuario" [ref=e116]:
+          - generic [aria-hidden] [ref=e117]: Q
+          - generic [ref=e118]: QA
+      - main [ref=e121]:
+        - main [ref=e276]:
+          - generic [ref=e277]:
+            - generic [ref=e278]:
+              - generic [ref=e279]:
+                - link "Volver" [ref=e280] [cursor=pointer]:
+                  - /url: /proyectos/6be75116-f4cb-44e2-a31f-31024f9adbb1
+                - heading "Edges QA" [level=1] [ref=e282]
+                - generic [ref=e283]: ER lógico
+              - generic [ref=e284]:
+                - generic [ref=e285]:
+                  - button "Añadir tabla" [active] [ref=e286]
+                  - combobox "Tipo de relación" [ref=e287]:
+                    - generic: Asociación
+                - combobox [ref=e290]:
+                  - generic: Exportar
+                - generic [ref=e297]: Edición colaborativa
+            - generic [ref=e298]:
+              - application [ref=e300]:
+                - generic [ref=e302]:
+                  - generic:
+                    - generic:
+                      - group [ref=e350]:
+                        - generic [ref=e351]:
+                          - generic [ref=e356]: nueva_tabla
+                          - paragraph [ref=e358]: "- sin atributos -"
+                      - group [ref=e364]:
+                        - generic [ref=e365]:
+                          - generic [ref=e370]: nueva_tabla
+                          - paragraph [ref=e372]: "- sin atributos -"
+                - generic "Control Panel" [ref=e303]:
+                  - button "Zoom In" [disabled]
+                  - button "Zoom Out" [ref=e307] [cursor=pointer]
+                  - button "Fit View" [ref=e310] [cursor=pointer]
+                  - button "Toggle Interactivity" [ref=e313] [cursor=pointer]
+                - img "Mini Map" [ref=e317]
+              - complementary [ref=e319]:
+                - generic [ref=e320]:
+                  - button "Propiedades" [ref=e321]
+                  - button "Asistencia IA" [ref=e325]
+                - generic [ref=e329]:
+                  - generic [ref=e334]:
+                    - heading "Asistencia con IA" [level=2] [ref=e335]
+                    - paragraph [ref=e336]: Proveedor local
+                  - generic [ref=e337]:
+                    - paragraph [ref=e342]: Proveedor disponible
+                    - button "Reintentar conexión con Ollama" [ref=e343]
+                  - paragraph [ref=e345]: Describe las clases, atributos y relaciones que deseas modelar.
+                  - generic [ref=e346]:
+                    - textbox "Prompt para asistencia con IA" [ref=e347]:
+                      - /placeholder: "Ej.: Crea Cliente y Pedido, relacionados uno a muchos"
+                    - generic [ref=e348]:
+                      - button "Cargar audio de requisitos" [ref=e349]
+                      - button "Generar" [disabled]
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e20] [cursor=pointer]
+  - alert [ref=e49]: Herramienta CASE

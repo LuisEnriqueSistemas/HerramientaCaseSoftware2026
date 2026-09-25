@@ -1,0 +1,79 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e77]:
+    - complementary [ref=e78]:
+      - generic [ref=e79]: Herramienta CASE
+      - navigation [ref=e81]:
+        - link "Inicio" [ref=e82] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Proyectos" [ref=e88] [cursor=pointer]:
+          - /url: /proyectos
+        - link "Invitaciones" [ref=e91] [cursor=pointer]:
+          - /url: /invitaciones
+        - link "Mi perfil" [ref=e95] [cursor=pointer]:
+          - /url: /perfil
+        - generic [ref=e99]:
+          - paragraph [ref=e100]: Próximamente
+          - generic [ref=e101]:
+            - text: Diagramas
+            - generic [ref=e106]: Pronto
+          - generic [ref=e107]:
+            - text: Proyectos Spring Boot
+            - generic [ref=e112]: Pronto
+      - generic [ref=e113]: Proyecto de clase · v0.1
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - button "Menú de usuario" [ref=e116]:
+          - generic [aria-hidden] [ref=e117]: Q
+          - generic [ref=e118]: QA
+      - main [ref=e121]:
+        - main [ref=e196]:
+          - generic [ref=e197]:
+            - button "Mis proyectos" [ref=e199]
+            - generic [ref=e200]:
+              - generic [ref=e202]:
+                - generic [ref=e207]:
+                  - heading "Edges QA" [level=3] [ref=e208]
+                  - paragraph [ref=e209]: Verificacion visual de relaciones
+                - generic [ref=e210]: Anfitrión
+              - generic [ref=e211]: Creado el 21 de septiembre de 2026
+            - generic [ref=e212]:
+              - generic [ref=e213]:
+                - heading "Diagrama colaborativo" [level=3] [ref=e214]
+                - paragraph [ref=e225]: Abre el lienzo UML del proyecto para modelar clases y relaciones en tiempo real.
+              - link "Abrir diagrama" [ref=e227] [cursor=pointer]:
+                - /url: /proyectos/6be75116-f4cb-44e2-a31f-31024f9adbb1/diagrama
+            - generic [ref=e228]:
+              - generic [ref=e229]:
+                - heading "Invitar colaboradores" [level=3] [ref=e230]
+                - paragraph [ref=e236]: Envía una invitación con rol de Editor o Lector.
+              - generic [ref=e238]:
+                - generic [ref=e239]:
+                  - generic [ref=e240]: Correo del invitado
+                  - textbox "Correo del invitado" [ref=e241]:
+                    - /placeholder: colaborador@ejemplo.com
+                - generic [ref=e242]:
+                  - generic [ref=e243]: Rol
+                  - combobox "Rol" [ref=e244]:
+                    - generic: Editor
+                  - combobox [aria-hidden] [ref=e247]
+                - button "Enviar invitación" [ref=e248]
+            - generic [ref=e249]:
+              - generic [ref=e250]:
+                - heading "Miembros" [level=3] [ref=e251]
+                - paragraph [ref=e257]: Gestiona los permisos de los colaboradores del proyecto.
+              - list [ref=e259]:
+                - listitem [ref=e260]:
+                  - generic [ref=e261]:
+                    - generic [ref=e262]: Q
+                    - generic [ref=e263]:
+                      - paragraph [ref=e264]:
+                        - generic [ref=e265]: QA Edges
+                        - generic [ref=e266]: (tú)
+                      - paragraph [ref=e267]: qa.edges.20260921.1856@example.com
+                  - generic [ref=e268]: Anfitrión
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=e270]:
+        - generic [ref=e274]: Proyecto creado correctamente.
+  - button "Open Next.js Dev Tools" [ref=e20] [cursor=pointer]
+  - alert [ref=e49]: Herramienta CASE

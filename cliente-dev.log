@@ -1,0 +1,36 @@
+
+> cliente@0.1.0 dev
+> dotenv -e .env.local -- next dev
+
+▲ Next.js 16.3.5 (Turbopack)
+- Local:         http://localhost:4000
+- Network:       http://192.168.1.103:4000
+- Environments: .env.local
+✓ Ready in 1006ms
+⚠ Warning: Next.js ignored package-lock.json in C:\Users\MSI because it is outside the current Git repository (C:\Users\MSI\Desktop\Primer Parcial Herramienta CASE\Proyecto).
+ To use this directory, set `turbopack.root` in your Next.js config.
+
+✓ Running next.config.ts took 69ms
+
+ GET /dashboard 200 in 519ms (next.js: 45ms, application-code: 474ms)
+ GET /login 200 in 384ms (next.js: 66ms, application-code: 318ms)
+ GET /proyectos/02e36aa2-818d-4668-a9c0-b9690a8569c6/diagrama 200 in 1783ms (next.js: 1527ms, application-code: 256ms)
+ GET /login 200 in 43ms (next.js: 11ms, application-code: 32ms)
+ GET /dashboard 200 in 214ms (next.js: 17ms, application-code: 197ms)
+ GET /dashboard 200 in 206ms (next.js: 11ms, application-code: 195ms)
+ GET /dashboard 200 in 140ms (next.js: 17ms, application-code: 122ms)
+ GET /dashboard 200 in 126ms (next.js: 68ms, application-code: 57ms)
+ GET /login 200 in 143ms (next.js: 15ms, application-code: 127ms)
+ GET /login 200 in 75ms (next.js: 15ms, application-code: 60ms)
+ GET /dashboard 200 in 162ms (next.js: 10ms, application-code: 152ms)
+ GET /dashboard 200 in 118ms (next.js: 12ms, application-code: 106ms)
+ GET /dashboard 200 in 74ms (next.js: 15ms, application-code: 60ms)
+ GET /dashboard 200 in 73ms (next.js: 37ms, application-code: 36ms)
+ GET /proyectos/1d65375f-79b2-4ec5-b559-2a48c5ed89c1 200 in 1028ms (next.js: 899ms, application-code: 129ms)
+ GET /login 200 in 51ms (next.js: 9ms, application-code: 42ms)
+ GET /login 200 in 83ms (next.js: 20ms, application-code: 63ms)
+ GET /dashboard 200 in 40ms (next.js: 8ms, application-code: 32ms)
+ GET /dashboard 200 in 50ms (next.js: 6ms, application-code: 44ms)
+ GET /dashboard 200 in 48ms (next.js: 13ms, application-code: 34ms)
+ GET /dashboard 200 in 54ms (next.js: 11ms, application-code: 43ms)
+[?25h

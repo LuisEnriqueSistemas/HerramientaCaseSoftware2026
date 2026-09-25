@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - heading "Herramienta CASE" [level=1] [ref=e9]
+      - paragraph [ref=e10]: Diseña diagramas de bases de datos y genera proyectos Spring Boot de forma colaborativa, con ayuda inteligente.
+    - generic [ref=e11]:
+      - link "Crear cuenta" [ref=e12] [cursor=pointer]:
+        - /url: /registro
+      - link "Iniciar sesión" [ref=e13] [cursor=pointer]:
+        - /url: /login
+    - paragraph [ref=e14]: Proyecto de clase · Gestión de cuentas
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e20] [cursor=pointer]

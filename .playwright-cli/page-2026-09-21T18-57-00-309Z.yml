@@ -1,0 +1,90 @@
+- generic:
+  - generic [aria-hidden]:
+    - complementary:
+      - generic: Herramienta CASE
+      - navigation:
+        - link:
+          - /url: /dashboard
+          - text: Inicio
+        - link:
+          - /url: /proyectos
+          - text: Proyectos
+        - link:
+          - /url: /invitaciones
+          - text: Invitaciones
+        - link:
+          - /url: /perfil
+          - text: Mi perfil
+        - generic:
+          - paragraph: Próximamente
+          - generic:
+            - text: Diagramas
+            - generic: Pronto
+          - generic:
+            - text: Proyectos Spring Boot
+            - generic: Pronto
+      - generic: Proyecto de clase · v0.1
+    - generic:
+      - banner:
+        - button:
+          - generic [aria-hidden]: Q
+          - generic: QA
+      - main:
+        - main:
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=1]: Hola, QA
+                - paragraph: qa.edges.20260921.1856@example.com · Bienvenido a tu espacio de trabajo.
+              - generic:
+                - button [expanded]: Nuevo proyecto
+            - region:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=3]: Proyectos
+                    - paragraph: 0 en total
+                - generic: Actualizados en tiempo real.
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=3]: Invitaciones pendientes
+                    - paragraph: 0 en total
+                - generic: Actualizados en tiempo real.
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=3]: Diagramas
+                    - paragraph: 0 en total
+                - generic: Disponible próximamente.
+            - generic:
+              - generic:
+                - heading [level=3]: Mis proyectos
+                - paragraph: Tus espacios de trabajo de diseño de bases de datos.
+              - generic:
+                - generic:
+                  - paragraph: Aún no hay proyectos
+                  - paragraph: Crea tu primer proyecto para organizar el modelado colaborativo.
+                  - link:
+                    - /url: /proyectos
+                    - text: Ir a mis proyectos
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e20] [cursor=pointer]
+  - alert: Hola, QA
+  - dialog [ref=e177]:
+    - generic [ref=e178]:
+      - heading "Nuevo proyecto" [level=2] [ref=e179]
+      - paragraph [ref=e180]: Crea un espacio de trabajo y conviértete en su Anfitrión.
+    - generic [ref=e181]:
+      - generic [ref=e182]:
+        - generic [ref=e183]: Nombre
+        - textbox "Nombre" [active] [ref=e184]:
+          - /placeholder: Ej. Sistema de ventas
+      - generic [ref=e185]:
+        - generic [ref=e186]: Descripción
+        - textbox "Descripción" [ref=e187]:
+          - /placeholder: Describe brevemente el objetivo del proyecto (opcional).
+      - generic [ref=e188]:
+        - button "Cancelar" [ref=e189]
+        - button "Crear proyecto" [ref=e190]
+    - button "Cerrar" [ref=e191]
